@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.site-info{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: rgb(119, 241, 241);
+}
+
+.nav-img{
+  width: 30px;
+  margin: 5px;
+}
+
+.list-items{
+  display: flex;
+  list-style: none;
+}
+
+.list-items li{
+  padding: 10px;
+}
+
+.list-items li::marker{
+  size: 20px;
+}
+
+.main{
+  height: 81.25vh;
+  padding: 10px;
+  line-height: 30px;
+  color: white;
+  background-color: #282D35;
+  display: flex;
+  background-image: url(https://img.icons8.com/external-soleicons-solid-amoghdesign/512/external-react-native-soleicons-solid-vol-1-soleicons-solid-amoghdesign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-content{
+  z-index: 3;
+}
+
+.facts li::marker{
+  font-size: 26px;
+  color: aqua;
+}
+
+.main-img{
+  height: 250px;
+  opacity: 0.5;
+  filter: invert(50%);
+  z-index: 2;
+}
