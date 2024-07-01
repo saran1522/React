@@ -1,3 +1,3 @@
 # React
 
-All the practice projects I built while learning React Js
+Some of the codes & practice projects I built while learning React Js
